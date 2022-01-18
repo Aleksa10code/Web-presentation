@@ -1,0 +1,19 @@
+---- ZMAJEVAKUGLABALKAN.COM ----
+
+1. Pristupni podaci za hosting : 
+
+- aleksa.jovanovic.97@gmail.com
+Sifra : zmajevakuglabalkan2021
+
+2. FTP Nalog : 
+
+-FTP server: ftp.zmajevakuglabalkan.com
+- Username : dejan@zmajevakuglabalkan.com
+- Lozinka : Dejan2021
+
+3. MYSQLI BAZA
+
+Ime baze podataka : zmajevakrs_kugla
+
+Korisnicko ime : zmajevakrs_dejan
+Lozinka : Dejan2021

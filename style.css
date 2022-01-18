@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+html{font-size:100%; font-family:Arial;}
+html{scroll-behavior:smooth;}
+body{margin:0; padding:0; font-size:16px; background:#131353
+;}
+*{box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-o-box-sizing:border-box;}
+
+.head{width:1280px; height:80px; margin:auto; background:#161661; position:relative;}
+.head img{display:block; position:absolute; top:15px; right:30px; width:300px; height:60px;}
+nav{width:602px; height:20px; position:absolute; left:10px; top:30px;}
+nav a:hover{color:#ff0;}
+nav::after{clear:both; display:table; content:"";}
+nav ul{padding:0; margin:0; list-style:none; height:20px;}
+nav li{display:block; float:left; width:100px; height:20px;}
+nav li ul{width:170px; height:0; overflow:hidden; background:#161661; transition:all 0.5s;}
+nav li:hover ul{height:80px; transition:all 0.5s;}
+nav ul li ul li{width:170px; margin:15px 0 0 0;}
+nav ul li ul li a{text-align:left; padding-left:15px;}
+nav a{display:block; width:100px; height:20px; line-height:20px; font-size:12px; font-weight:bold; text-decoration:none; text-align:center; color:#fff;}
+
+.futer{width:1280px; height:70px; margin:20px auto; background:#22242a; border-radius:10px;}
+.futer::after{clear:both; display:table; content:"";}
+
+.levo-futer{width:400px; height:60px; margin:4px auto; float:left; color:#6e6e63; padding-top:18px; padding-left:14px;}
+.desno-futer{width:500px; height:60px; margin:4px auto; float:left; color:#fff;}
+.desno-futer::after{clear:both; display:table; content:"";}
+.desno-futer a{display:block; float:left; width:160px; height:40px; line-height:40px; margin:10px auto; color:#fff; font-weight:bold; text-decoration:none; text-align:center;}
+
+@media only screen and (max-width: 480px) {
+.head{width:100%; border:solid 1px #f00;}
+.head img{width:calc(100% - 100px); margin:1% 10%; border:solid 1px #fff;}
+nav{display:none;}	
+	
+}

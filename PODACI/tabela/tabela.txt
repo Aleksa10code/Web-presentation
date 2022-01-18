@@ -1,0 +1,15 @@
+---- ADMIN PANEL ZA UNOSENJE FILMOVA ----
+
+1. Tabela treba da ima :
+
+- Kategorije :
+
+- serijali 
+- nazivi
+- epizoda
+- link - varchar
+- slika - text
+- opis - text 
+- trajanje - text
+- datum emitovanja - text
+- datum timestamp
